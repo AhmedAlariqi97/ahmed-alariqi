@@ -1,0 +1,145 @@
+/* ===========================================
+content file
+==============================================
+
+1.Left Section Main Design
+2.Right Section Main Design
+3.Responsive (media query) */
+
+section.contact-us .head .icon-envelope {
+    color: var(--subtitle);
+    margin-right: 1rem;
+    font-size: 1.8rem;
+}
+section.contact-us .head .title {
+    font-size: 2.1rem;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+section.contact-us .head .sub-title {
+    color: var(--subtitle);
+    margin-bottom: 2rem;
+    line-height: 1.65rem;
+}
+
+/* ===========================================
+1.Left Section Main Desigh
+==============================================*/
+section.contact-us .body {
+    justify-content: space-between;
+}
+
+section.contact-us .body label {
+    color: var(--subtitle);
+}
+section.contact-us .body .form #email,
+section.contact-us .body .form #message {
+    all: unset;
+    background-color: rgba(63, 63, 70, .15);
+    border: 1px solid rgb(63, 63, 70);
+    width: 16rem;
+    padding: .5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    transition: .4s;
+    font-size: 1.1rem;
+}
+
+.light section.contact-us .body .form #email,
+.light section.contact-us .body .form #message {
+    background-color: rgba(255, 255, 255, .165);
+    border: 1px solid rgb(128, 128, 128, .451);
+    box-shadow: 1px 1px 1px rgba(73, 73, 75, .105);
+    color: #232324;
+}
+section.contact-us .body .form #email:focus,
+section.contact-us .body .form #message:focus,
+section.contact-us .body .form #email:hover,
+section.contact-us .body .form #message:hover {
+   border: 1px solid rgb(45, 212, 191);
+}
+
+.light .contact-us .body .form #email:focus,
+.light .contact-us .body .form #message:focus,
+.light .contact-us .body .form #email:hover,
+.light .contact-us .body .form #message:hover {
+   border: 1px solid rgb(78, 80, 80);
+}
+ 
+section.contact-us .body .form #message {
+    min-height: 9rem;
+    resize: vertical;
+}
+section.contact-us .body .submit {
+    background-color: rgba(36, 37, 46, 1);
+    padding: .75rem 2rem;
+    text-align: center;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+    border-radius: 5px;
+    transition: .4s;
+    margin-top: 1.8rem;
+    border: 1px solid rgb(63, 63, 70);
+}
+section.contact-us .body .submit:hover {
+    scale: .97;
+}
+.contact-us .body .message-success {
+    margin-top: 1rem;
+}
+
+.light .contact-us .body .message-success {
+    color: #232324;
+}
+
+
+
+
+
+
+/* ===========================================
+2.Right Section Main Desigh
+==============================================*/
+
+
+
+
+
+/* ===========================================
+3.Responsive (media query)
+==============================================*/
+@media (max-width: 650px) {
+    section.contact-us .body {
+        display: block;
+    }
+    section.contact-us .body .form {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
+    section.contact-us .body .form div.flex {
+        flex-direction: column;
+        align-items: start;
+    }
+    section.contact-us .body .form #email,
+    section.contact-us .body .form #message {
+        width: 100%;
+        margin-left: 0;
+        padding: .7rem 0;
+        margin-top: 1rem;
+    }
+    section.contact-us .body .submit {
+        width: 30%;
+        align-self: center;
+    }
+    
+
+
+}
+@media (max-width: 750px) {
+    section.contact-us .body .animation {
+        display: none;
+    }
+}

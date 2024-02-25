@@ -1,0 +1,55 @@
+/* ===========================================
+content file
+==============================================
+
+1.Left Section Main Design
+2.Right Section Main Design
+3.Responsive (media query) */
+
+
+
+
+
+
+/* ===========================================
+1.Left Section Main Desigh
+==============================================*/
+section.skill .head .title {
+    font-size: 2.1rem;
+    color: var(--title);
+    margin-bottom: 1rem;
+}
+
+section.skill .body.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+section.skill .body .card {
+    padding: 5px 10px;
+    margin: 5px;
+    border: 1px solid rgba(93, 188, 252, .3);
+    border-radius: 10px;
+    background-image: linear-gradient(
+        rgba(255,255,255,0.05),
+        rgba(255,255,255,0.05));
+    color: var(--title);
+    box-shadow: 1px 1px 20px var(--shadow-nav);
+}
+
+
+
+
+
+
+
+
+
+/* ===========================================
+3.Responsive (media query)
+==============================================*/
+@media (max-width: 1400px) {
+    
+   
+  }

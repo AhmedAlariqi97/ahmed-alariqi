@@ -1,0 +1,62 @@
+
+/* ===========================================
+content file
+==============================================
+
+1.Left Section Main Design
+2.Right Section Main Design
+3.Responsive (media query) */
+
+/* ===========================================
+1.Left Section Main Desigh
+==============================================*/
+footer.footer.flex {
+    color: var(--subtitle);
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+footer.footer ul.flex {
+    gap: 1rem;
+}
+footer.footer ul.flex li a {
+    color: var(--subtitle);
+    font-size: .9rem;
+    font-weight: 400;
+}
+footer.footer ul.flex li a:hover {
+    color: var(--blue);
+    scale: 1.1;
+    font-size: 1rem;
+    font-weight: 500;
+}
+footer.footer .copy {
+    color: rgb(113, 113, 122);
+}
+
+
+
+/* ===========================================
+2.Right Section Main Desigh
+==============================================*/
+
+
+
+
+
+/* ===========================================
+3.Responsive (media query)
+==============================================*/
+@media (max-width: 650px) {
+    footer.footer.flex {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 1rem;
+    }
+    footer.footer ul.flex {
+        justify-content: center;
+        gap: 11px;
+    }
+
+}

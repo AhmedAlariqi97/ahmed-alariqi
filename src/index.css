@@ -1,0 +1,175 @@
+
+/* ===========================================
+content file
+==============================================
+
+1.Header Desigh
+2.Icon
+3.Modal == pop up
+4 Responsive Design (media query)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: .3px;
+  box-sizing: border-box;
+  /* scrollbar-color: #9e4673 #3d4a59; */
+  scroll-behavior: smooth;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary: #000;
+  --secondary: rgb(24,24,27);
+  --border: rgba(63,63,70,0.4);
+
+  --title: rgb(244,244,245);
+  --subtitle: rgb(161,161,170);
+
+  --bgheader: rgb(39,39,42);
+  --blue: rgb(93,188,252);
+
+  --shadow-nav: rgb(49, 48, 48);
+}
+
+.light {
+  --primary: rgb(250, 250, 250);
+
+  --secondary: rgb(255, 255, 255);
+  --border: rgba(202,202,202,0.528);
+
+  --title: rgb(39,39,42);
+  --subtitle: rgb(82,82,91);
+
+  --bgheader: rgb(253,253,253);
+  --blue: rgb(0,149,246);
+
+  --shadow-nav: rgb(197 168 168);
+}
+body {
+  background-color: var(--primary);
+  color: #fff;
+}
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary);
+  border: 2px solid var(--border);
+  padding: 0 3rem;
+}
+.divider {
+  border-bottom: 1px solid var(--border);
+  margin: 3rem 0;
+
+  width: calc(100% + 3rem + 3rem);
+  margin-left: -3rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: initial;
+  transition: .2s;
+}
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+button:active {
+  scale: 0.5;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+/* remove default style */
+button {
+  all: unset;
+}
+button:disabled {
+  opacity: .4;
+  cursor: not-allowed;
+}
+
+/* start style of scroller */
+::-webkit-scrollbar {
+  width: .8rem;
+}
+::-webkit-scrollbar-track {
+  border:  7px solid #232943;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, .5);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+/* end style of scroller */
+
+.scroll2Top {
+  background-color: rgba(25, 118, 210, .6);
+  width: 2.6rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 2rem;
+  right: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .4s;
+  border: 1px solid #ffffff46;
+}
+.scroll2Top:hover {
+  background-color: rgba(25, 118, 210, 1);
+  scale: 1.1;
+  border: 1px solid #ffffff66;
+}
+
+
+
+/* ===========================================
+4.Responsive (media query)
+==============================================*/
+@media (max-width: 1000px) {
+  .container {
+    width: 90%;
+    padding: 0 1.6rem;
+  }
+  .divider {
+  
+    width: calc(100% + 1.6rem + 1.6rem);
+    margin-left: -1.6rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 0 1.6rem;
+  }
+  .divider {
+  
+    width: calc(100% + 1.6rem + 1.6rem);
+    margin-left: -1.6rem;
+  }
+  .scroll2Top {
+    opacity: .6;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+}

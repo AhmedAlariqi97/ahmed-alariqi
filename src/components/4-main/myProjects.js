@@ -7,7 +7,7 @@ export const myProjects = [
   { title: "Gym", category: ["html"], descreption: "Built this User Interface as front end use Html, Css, JavaScript", imgPath: "./" },
   { title: "E-commerce", category: ["html"], descreption: "Built this User Interface as front end use Html, Css, JavaScript", imgPath: "./" },
   { title: "Topic", category: ["html"], descreption: "Built this User Interface as front end use Html, Css, JavaScript", imgPath: "./" },
-  { title: "Portfolio Website", category: ["react"], descreption: "Built this User Interface as front end use ReactJS", imgPath: "./" },
-  { title: "dashboard", category: ["node"], descreption: "Built this User Interface as front end use Node.js", imgPath: "./" },
-  { title: "Wirx", category: ["react"], description: "Built this User Interface as front end use ReactJS", imagPath: "./"}
+  { title: "Wirx", category: ["react"], description: "Built this User Interface as front end use ReactJS", imagPath: "./"},
+  { title: "Helpi", category: ["react"], description: "Built this User Interface as front end use ReactJS", imagPath: "./"},
+  { title: "dashboard", category: ["node"], descreption: "Built this User Interface as front end use Node.js", imgPath: "./" }
 ]

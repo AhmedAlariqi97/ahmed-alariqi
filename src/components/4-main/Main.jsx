@@ -11,12 +11,21 @@ const Main = () => {
   const [arr, setArr] = useState(myProjects)
 
   const handleClick = (buttonCategory) => {
+    
     setCurrentActive(buttonCategory);
+  
     const newArr = myProjects.filter((item) => {
-      return item.category === buttonCategory
+      const ZZZ = item.category.find((myItem) => {
+        return myItem === buttonCategory;
+      });
+  
+      return ZZZ === buttonCategory;
     });
+  
     setArr(newArr);
   }
+
+  
 
   return (
     <main className='main flex'>
@@ -30,12 +39,12 @@ const Main = () => {
         <button onClick={() => {
            handleClick('html');
         }}
-          className={currentActive === 'html' ? 'active' : null}>Html & Css</button>
+          className={currentActive === 'html' ? 'active' : null}>Html & Css & JS</button>
 
         <button onClick={() => {
-           handleClick('javascript')
+           handleClick('laravel')
         }}
-          className={currentActive === 'javascript' ? 'active' : null}>JavaScript</button>
+          className={currentActive === 'laravel' ? 'active' : null}>Laravel</button>
 
         <button onClick={() => {
           handleClick('react')

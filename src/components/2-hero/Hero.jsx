@@ -27,11 +27,13 @@ const Hero = () => {
         transition={{duration: 4}}
 
         className='title'>
-          Software Developer, Graghic Designer
+          Full Stack Developer and Project Manager
         </motion.h1>
 
         <p className='sub-title'>
-          l'm Ahmed Alariqi, software developer and graphic designer, software developer and graphic designer, software developer and graphic designer, software developer and graphic designer.
+          Expert Full Stack Developer, System Analyst, and Project Manager with 3+ years in the tech industry, mastering PHP, Laravel, Node.js, C#, Asp.net, JavaScript, React.js and Next.js.
+          <br />
+          Delivered 13+ projects with a 99% success rate, driving growth in e-commerce and finance.
         </p>
 
         <div className='social-media flex'>

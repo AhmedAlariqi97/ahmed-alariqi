@@ -1,7 +1,13 @@
 
 export const myProjects = [
+  { title: "Aura Store", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./AuraParma.png" },
+  { title: "Ahl Almadina Store", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./ahlmp.png" },
+  { title: "Smsm Store", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./Smsm.png" },
   { title: "Al-lord Group", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./al-lord.png" },
   { title: "Growth ERP Company", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./growth.png" },
+  { title: "Bayanat Minist", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./bayanat.png" },
+  { title: "Doktoori", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./daktoori.png" },
+  { title: "Al", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./.png" },
   { title: "Yemen E-market", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./yemenADs.png" },
   { title: "Gadah Jadaan", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./gadahJadaan.png" },
   { title: "Portfolio Website", category: ["html"], descreption: "Built this User Interface as front end use Html, Css, JavaScript", imgPath: "./portfolio-ui.png" },

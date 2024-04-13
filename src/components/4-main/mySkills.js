@@ -7,7 +7,7 @@ export const mySkills = [
     {title: "Node.js"},
     {title: "React.js"},
     {title: "Next.js"},
-    {title: "JavaScripst"},
+    {title: "JavaScript"},
     {title: "Html"},
     {title: "Css"},
     {title: "Bootstrap"},

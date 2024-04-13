@@ -23,7 +23,7 @@ const Skill = () => {
         {title: "System Analyse"},
         {title: "Problem Solving"},
         {title: "Team Leader"},
-        {title: "Agile Project Manager"},
+        {title: "Agile Project Management"},
         {title: "Scrum"},
         {title: "Git & Github"},
         {title: "Event planning and oversight"},

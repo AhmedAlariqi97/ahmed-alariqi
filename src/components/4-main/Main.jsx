@@ -28,7 +28,7 @@ const Main = () => {
   
 
   return (
-    <main className='main flex'>
+    <main id='project' className='main flex'>
       <section className='left-section flex'>
         <button onClick={() => {
           setCurrentActive('all');

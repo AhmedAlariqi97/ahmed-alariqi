@@ -14,7 +14,7 @@ const Contact = () => {
 
 
   return (
-    <section className='contact-us'>
+    <section id='contact' className='contact-us'>
       <div className='head'>
         <h2 className='title'>
           <span className='icon-envelope'></span>

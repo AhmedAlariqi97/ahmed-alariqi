@@ -37,14 +37,19 @@ const Main = () => {
           className={currentActive === 'all' ? 'active' : null}>all project</button>
 
         <button onClick={() => {
-           handleClick('html');
+           handleClick('E-Commerce');
         }}
-          className={currentActive === 'html' ? 'active' : null}>Html & Css & JS</button>
+          className={currentActive === 'E-Commerce' ? 'active' : null}>E-Commerce</button>
 
         <button onClick={() => {
            handleClick('laravel')
         }}
           className={currentActive === 'laravel' ? 'active' : null}>Laravel</button>
+
+        <button onClick={() => {
+           handleClick('html');
+        }}
+          className={currentActive === 'html' ? 'active' : null}>Html & Css & JS</button>
 
         <button onClick={() => {
           handleClick('react')

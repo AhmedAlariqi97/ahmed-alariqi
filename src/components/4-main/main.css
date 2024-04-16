@@ -91,6 +91,9 @@ main .right-section .card .box .sub-title {
 main .right-section .card .box .icons {
     justify-content: space-between;
 }
+main .right-section .card .box .icons .link {
+    gap: 5px;
+}
 main .right-section .card .box .icons .links {
     gap: 11px;
 }

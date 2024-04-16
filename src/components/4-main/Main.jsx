@@ -80,7 +80,7 @@ const Main = () => {
                 <p className='sub-title'> {item.descreption}</p>
                 <div className='flex icons'>
                   <div className='flex link'>
-                    <a href='{item.link}' className=''>
+                    <a href={item.linkP} className=''>
                       <div className='icon-link'>
                       </div>
                     </a>

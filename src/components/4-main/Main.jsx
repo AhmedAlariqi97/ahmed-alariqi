@@ -80,11 +80,16 @@ const Main = () => {
                 <p className='sub-title'> {item.descreption}</p>
                 <div className='flex icons'>
                   <div className='flex links'>
-                    <div className='icon-link'></div>
-                    <div className='icon-github-square'></div>
+                    <a href='{item.link}' className=''>
+                      <div className='icon-link'>
+                      </div>
+                    </a>
+                    <a href='https://github.com/AhmedAlariqi97' className=''>
+                       <div className='icon-github-square'></div>
+                    </a>
                   </div>
-                  <a href='' className='more flex'>more
-                    <span className='icon-arrow-right'></span></a>
+                  {/* <a href='' className='more flex'>more
+                    <span className='icon-arrow-right'></span></a> */}
                 </div>
               </div>
             </motion.article>

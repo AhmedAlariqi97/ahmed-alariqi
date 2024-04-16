@@ -8,7 +8,7 @@ export const myProjects = [
   { title: "U-Tern", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./Utern.png", link: "https://utern.otekplatform.com" },
   { title: "Yemen House", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./Yemen-House.png", link: "https://yemen-house.com" },
   { title: "ShopToday", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./ShopToday.png", link: "" },
-  { title: "Bayanat Minist", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./bayanat.png", link: "" },
+  { title: "Bayanat Minist", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./bayanat.png", link: "https://bayanat.dynamicso.com/" },
   { title: "Doktoori", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./daktoori.png", link: "https://daktoori.com" },
   { title: "Alwan Alkhairr", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./alwan.png", link: "https://alkhairr.qa/ar" },
   { title: "Yemen E-market", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./yemenADs.png", link: "https://yemenemarket.com" },

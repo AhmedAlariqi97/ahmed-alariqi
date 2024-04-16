@@ -79,7 +79,7 @@ const Main = () => {
                 <h2 className='title'>{item.title}</h2>
                 <p className='sub-title'> {item.descreption}</p>
                 <div className='flex icons'>
-                  <div className='flex links'>
+                  <div className='flex link'>
                     <a href='{item.link}' className=''>
                       <div className='icon-link'>
                       </div>

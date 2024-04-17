@@ -40,8 +40,9 @@ const Hero = () => {
           
           {/* <div className='icon icon-x'></div>
           <div className='icon icon-instagram'></div> */}
-          <div className='icon icon-github-square'></div>
-          <div className='icon icon-linkedin-square'></div>
+          <a href='' className=''><div className='icon icon-github-square'></div></a>
+          <a href='' className='https://www.linkedin.com/in/ahmed-alariqi'><div className='icon icon-linkedin-square'></div></a>
+          
         </div>
 
       </div>

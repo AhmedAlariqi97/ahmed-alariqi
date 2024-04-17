@@ -19,6 +19,6 @@ export const myProjects = [
   { title: "dashboard", category: ["node"], descreption: "Built this User Interface as front end use Node.js", imgPath: "./", linkP: ""},
   { title: "Ministry Health", category: ["html", "laravel"], descreption: "Built use Html, Css, JavaScript and Laravel 10 with MySql DB", imgPath: "./MinistryHealth.png", linkP:"https://moh.gov.ye"},
   { title: "Wirxe Clone", category: ["react"], descreption: "Built this User Interface as front end use ReactJS Next js", imgPath: "./WirxeCloneNext-UI.png", linkP:"https://github.com/AhmedAlariqi97/wirex-clone.git"},
-  { title: "Hilink Clone", category: ["react"], descreption: "Built this User Interface as front end use ReactJS Next js", imgPath: "./TravelNext-UI.png", linkP:""},
+  { title: "Hilink Clone", category: ["react"], descreption: "Built this User Interface as front end use ReactJS Next js", imgPath: "./TravelNext-UI.png", linkP:"https://github.com/AhmedAlariqi97/travel-ui2.git"},
   { title: "Coffee Home", category: ["html"], descreption: "Built this User Interface as front end use Html, Css, JavaScript", imgPath: "./Coffee.png", linkP:"https://github.com/AhmedAlariqi97/Coffee-Home.git"},
 ]

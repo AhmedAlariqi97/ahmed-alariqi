@@ -25,12 +25,19 @@ const Skill = () => {
         {title: "Team Leader"},
         {title: "Agile Project Management"},
         {title: "Scrum"},
-        {title: "Git & Github"},
+        {title: "Version Control"},
         {title: "Event planning and oversight"},
         {title: "Administrative coordination"},
         {title: "Logistics"},
         {title: "Scheduling"},
         {title: "Creative innovation"},
+        {title: "Organizational Development"},
+        {title: "Event planning and oversight"},
+        {title: "Atlassian Suite"},
+        {title: "SEO"},
+        {title: "Project Planning"},
+        {title: "Business Communication"},
+        {title: "Change Management"},
       ]
 
 

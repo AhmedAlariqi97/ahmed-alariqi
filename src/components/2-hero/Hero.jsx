@@ -38,8 +38,8 @@ const Hero = () => {
 
         <div className='social-media flex'>
           
-          <div className='icon icon-x'></div>
-          <div className='icon icon-instagram'></div>
+          {/* <div className='icon icon-x'></div>
+          <div className='icon icon-instagram'></div> */}
           <div className='icon icon-github-square'></div>
           <div className='icon icon-linkedin-square'></div>
         </div>
